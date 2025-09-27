@@ -12,3 +12,9 @@ berikut adalah screenshot hasil kodingan dari praktikum pemrograman mobile perte
 berikut adalah recording demo aplikasi hasil kodingan dari praktikum pemrograman mobile pertemuan kedua
 
 [Screen_recording_20250920_200314.webm](https://github.com/user-attachments/assets/97f4744f-6a4b-43fe-9f49-262ee1348829)
+
+
+## Tugas 3 Pertemuan 4
+berikut adalah recording demo aplikasi hasil kodingan dari praktikum pemrograman mobile pertemuan ketiga
+
+[Screen_recording_20250928_024006.webm](https://github.com/user-attachments/assets/4f9e43ca-07d3-47b0-ac2a-df0e30cac478)
