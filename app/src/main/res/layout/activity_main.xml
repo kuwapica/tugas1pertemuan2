@@ -32,6 +32,7 @@
         android:justificationMode="inter_word"
         android:text="@string/inf_description"/>
 
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_to_page2"
         android:text="@string/next"

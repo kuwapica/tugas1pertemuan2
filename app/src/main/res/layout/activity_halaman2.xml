@@ -37,7 +37,7 @@
         android:layout_marginTop="16dp"
         android:background="@color/colorSecondary"
         android:padding="4dp"
-        android:text="Profil Lulusan"
+        android:text="@string/profil_lulusan"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -105,6 +105,13 @@
                     android:layout_marginTop="4dp"/>
                 <include
                     android:id="@+id/layout_ig"
+                    layout="@layout/layout_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"/>
+                <include
+                    android:id="@+id/layout_buku"
                     layout="@layout/layout_menu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -2,11 +2,8 @@ package com.example.ifunsoedinformatika
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.net.toUri
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.ifunsoedinformatika.databinding.ActivityHalaman2Binding
 
 class Halaman2Activity : AppCompatActivity() {
@@ -27,6 +24,11 @@ class Halaman2Activity : AppCompatActivity() {
         }
 
     private fun initLayout() {
+        binding.layoutBuku.let {
+            it.imgIcon.setImageResource(R.drawable.ic_book)
+            it.tvLayout.setText(R.string.koleksi_buku)
+        }
+
         binding.layoutLocation.let {
             it.imgIcon.setImageResource(R.drawable.ic_location)
             it.tvLayout.setText(R.string.alamat)
@@ -49,6 +51,10 @@ class Halaman2Activity : AppCompatActivity() {
     }
 
     private fun initListener() {
+        binding.layoutBuku.root.setOnClickListener {
+            startActivity(Intent(this, DaftarBukuActivity::class.java))
+        }
+
         binding.layoutLocation.root.setOnClickListener {
             val gMapsIntentUri = "$gMapsUrl$latitude,$longitude".toUri()
             val mapIntent = Intent(Intent.ACTION_VIEW, gMapsIntentUri)
@@ -74,6 +80,7 @@ class Halaman2Activity : AppCompatActivity() {
             }
             startActivity(intent)
         }
+
 
         binding.btnBack.setOnClickListener {
             finish()
