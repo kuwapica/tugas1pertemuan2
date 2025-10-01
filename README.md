@@ -22,4 +22,7 @@ berikut adalah recording demo aplikasi hasil kodingan dari praktikum pemrograman
 ## Tugas 4 Pertemuan 5
 berikut adalah recording demo aplikasi hasil kodingan dari praktikum pemrograman mobile pertemuan ketiga
 
+[Screen_recording_20251001_204217.webm](https://github.com/user-attachments/assets/e4a828ab-6e9c-4e64-a1e3-5ac484a91679)
+
+
 
